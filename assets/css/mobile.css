@@ -1,5 +1,4 @@
 @media screen and (max-width: 1024px) {
-
     /* Cabecalho */
     .cabecalho {
         background-image: url('../img/back_mobile.png');
@@ -101,10 +100,18 @@
         display: none;
     }
 
+    .necessidades_card{
+        margin: 0 auto;
+    }
+
     .necessidades_mobile {
         display: block;
         background-color: var(--segundo-fundo);
         padding: 1.5rem 0 1.5rem 0;
+    }
+    
+    .swiper-horizontal1{
+        height: 380px;
     }
 
     .swiper-button-next,

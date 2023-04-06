@@ -81,8 +81,9 @@
 
         <section class="necessidades_mobile">
             <h2 class="necessidades_titulo">Necessidades basicas para uma vida saúdavel:</h2>
-            <!-- Slider main container -->
-            <div class="swiper1">
+            <div class="swiper swiper-horizontal1">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -100,6 +101,7 @@
 
                     <div class="swiper-slide">
                         <div class="necessidades_card">
+
                             <img src="assets/img/verde.png"
                                 alt="Foto de um cachorro branco com manchas pretas junto de um homem sorrindo."
                                 class="card_img">
@@ -159,7 +161,7 @@
 
         <section class="comentario">
             <!-- Slider main container -->
-            <div class="swiper">
+            <div class="swiper swiper1">
                 <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
                     <!-- Slides -->
@@ -251,30 +253,13 @@
             loop: true,
             spaceBetween: 10,
             slidesPerView: 1,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
             pagination: {
                 el: '.swiper-pagination',
                 type: 'bullets',
-                clickable: 'true',
             },
-
-        });
-    </script>
-
-    <script>
-        const swiper1 = new Swiper('.swiper1', {
-            loop: true,
-            spaceBetween: 20,
-            slidesPerView: 2,
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
-            },
-            autoplay: {
-                delay: 1500,
             },
         });
     </script>
